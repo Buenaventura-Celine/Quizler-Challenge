@@ -45,6 +45,7 @@ class _QuizPageState extends State<QuizPage> {
       ).show();
       //HINT! Step 4 Part B is in the quiz_brain.dart
       //TODO: Step 4 Part C - reset the questionNumber,
+      quizBrain.reset();
       //TODO: Step 4 Part D - empty out the scoreKeeper.
 
       //TODO: Step 5 - If we've not reached the end, ELSE do the answer checking steps below 👇
